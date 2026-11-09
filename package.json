@@ -1,0 +1,11 @@
+{
+  "name": "guanmo-ui",
+  "private": true,
+  "description": "观默 UI：界面作品画廊与录制工具",
+  "scripts": {
+    "record:toggle": "node tools/record.js gallery/day-night-toggle/index.html out/day-night-toggle.mp4 --w 1440 --h 1080 --scale 2"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
