@@ -1,9 +1,11 @@
 {
-  "name": "guanmo-ui",
+  "name": "ui-moments",
   "private": true,
-  "description": "观默 UI：界面作品画廊与录制工具",
+  "description": "做得好的 UI 瞬间：每个都能直接上手玩，附录屏和灵感来源",
   "scripts": {
-    "record:toggle": "node tools/record.js gallery/day-night-toggle/index.html out/day-night-toggle.mp4 --w 1440 --h 1080 --scale 2"
+    "dev": "python3 -m http.server 5173",
+    "record:toggle": "node tools/record.js gallery/day-night-toggle/index.html out/day-night-toggle.mp4 --w 1440 --h 1080 --scale 2",
+    "record:light-scenes": "node tools/record.js gallery/light-scenes/index.html out/light-scenes.mp4 --w 1440 --h 900 --scale 2"
   },
   "devDependencies": {
     "playwright": "1.63.0"
